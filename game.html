@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <div class="whole">
+        <div class="head">
+            <span id="userScore">0</span>
+            <span class="line">-</span>
+            <span id="compScore">0</span>
+        </div>
+        <div class="main">
+            <div id="BoxOfUser">
+                <p>You</p>
+                <div id="HandImages">
+                    <img id="rockimg" class="ImageGames" src="./assets/rock-hand.png" alt="" height="250px">
+                    <img id="paperimg" class="ImageGames" src="./assets/paper-hand.png" alt="" height="250px">
+                    <img id="scissorsimg" class="ImageGames" src="./assets/scissors-hand.png" alt="" height="250px">
+                </div>
+                <div class="image" id="idOfLogo">
+                    <img id="rock" src="./assets/rock-logo.png" class="logo" alt="" height="85px">
+                    <img id="paper" src="./assets/paper-logo.png" class="logo" alt="" height="85px">
+                    <img id="scissors" class="logo" src="./assets/scissors-logo.png" alt="" height="85px">
+                </div>
+            </div>
+            <div class="vs">
+                <img src="./assets/vs.png" alt="" height="500px">
+            </div>
+            <div id="BoxOfComp">
+                <p>Comp</p>
+                <div id="compiler"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>  
+</body>
+</html>
